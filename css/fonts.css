@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url('../fonts/AppleGaramond.eot');
+    src: url('../fonts/AppleGaramond.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramond.woff2') format('woff2'),
+         url('../fonts/AppleGaramond.woff') format('woff'),
+         url('../fonts/AppleGaramond.ttf') format('truetype'),
+         url('../fonts/AppleGaramond.svg#AppleGaramond') format('svg');
+}
+
+@font-face {
+    font-family: 'AppleGaramondBold';
+    src: url('../fonts/AppleGaramondBold.eot');
+    src: url('../fonts/AppleGaramondBold.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramondBold.woff2') format('woff2'),
+         url('../fonts/AppleGaramondBold.woff') format('woff'),
+         url('../fonts/AppleGaramondBold.ttf') format('truetype'),
+         url('../fonts/AppleGaramondBold.svg#AppleGaramondBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AppleGaramondBoldItalic';
+    src: url('../fonts/AppleGaramondBoldItalic.eot');
+    src: url('../fonts/AppleGaramondBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramondBoldItalic.woff2') format('woff2'),
+         url('../fonts/AppleGaramondBoldItalic.woff') format('woff'),
+         url('../fonts/AppleGaramondBoldItalic.ttf') format('truetype'),
+         url('../fonts/AppleGaramondBoldItalic.svg#AppleGaramondBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'AppleGaramondItalic';
+    src: url('../fonts/AppleGaramondItalic.eot');
+    src: url('../fonts/AppleGaramondItalic.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramondItalic.woff2') format('woff2'),
+         url('../fonts/AppleGaramondItalic.woff') format('woff'),
+         url('../fonts/AppleGaramondItalic.ttf') format('truetype'),
+         url('../fonts/AppleGaramondItalic.svg#AppleGaramondItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'AppleGaramondLight';
+    src: url('../fonts/AppleGaramondLight.eot');
+    src: url('../fonts/AppleGaramondLight.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramondLight.woff2') format('woff2'),
+         url('../fonts/AppleGaramondLight.woff') format('woff'),
+         url('../fonts/AppleGaramondLight.ttf') format('truetype'),
+         url('../fonts/AppleGaramondLight.svg#AppleGaramondLight') format('svg');
+}
+
+@font-face {
+    font-family: 'AppleGaramondLightItalic';
+    src: url('../fonts/AppleGaramondLightItalic.eot');
+    src: url('../fonts/AppleGaramondLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/AppleGaramondLightItalic.woff2') format('woff2'),
+         url('../fonts/AppleGaramondLightItalic.woff') format('woff'),
+         url('../fonts/AppleGaramondLightItalic.ttf') format('truetype'),
+         url('../fonts/AppleGaramondLightItalic.svg#AppleGaramondLightItalic') format('svg');
+}
