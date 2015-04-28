@@ -77,8 +77,8 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 .body-section { float: left; width: 100%; clear: both; margin-top: 310px;}
 .content-body {}
 .content-item { width: calc(100% - 52px); padding: 0 26px; margin-top: 10px;}
-.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 0 0 5px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: .50;}
-.content-item p { text-align: center; font-family: Tahoma, sans-serif; font-size: 18px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 45px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
+.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: .50;}
+.content-item p { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
 /* body */
 
 /* contato */
