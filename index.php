@@ -188,7 +188,7 @@
             <div id="map_canvas"></div>
             <p>
                 qmalteria@qmalteria.com.br<br />
-                (43) XXXX-XXXX<br />
+                (43) 3011-0770<br />
                 Avenida Arapongas, 1571 - sobreloja<br />
                 Arapongas - Paran&aacute;
             </p>
