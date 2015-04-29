@@ -66,7 +66,7 @@
                 	<a href="#sobre" rel="sobre" title="Sobre Q.Malteria?" class="bt-scroll active">Sobre Q.Malteria?</a>
                 </li>
                 <li>
-                	<a href="#cervejarias" rel="cervejarias" title="Cervejarias" class="bt-scroll">Cervejarias</a>
+                	<a href="#galeria" rel="galeria" title="Cervejarias" class="bt-scroll">Galeria</a>
                 </li>
                 <li>
                 	<a href="#faca-sua-propria" rel="faca-sua-propria" title="Fa&ccedil;a sua pr&oacute;pria cerveja" class="bt-scroll">Fa&ccedil;a sua pr&oacute;pria cerveja</a>
@@ -142,8 +142,8 @@
                 Essa &eacute; a proposta, mergulhar na cultura cervejeira de diferentes maneiras.
             </p>
         </div>
-        <div class="content-item pull-left" id="cervejarias">
-            <h2>Cervejarias</h2>
+        <div class="content-item pull-left" id="galeria">
+            <h2>Galeria</h2>
             <p>
                 Em Breve
             </p>
@@ -208,7 +208,7 @@
                 <span class="postal-code">86701-650</span>
                 <div class="country-name">Brasil</div>
             </div>
-            <div class="tel"><div class="name-item">Tel: </div>(43) XXXX-XXXX</div>
+            <div class="tel"><div class="name-item">Tel: </div>(43) 3011-0770</div>
             <a href="http://www.phormadesign.com.br" target="_blank" class="logo-phormna">
                 <span>phorma design</span>
             </a>
