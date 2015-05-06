@@ -47,7 +47,7 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 .header-alternative { display: none;}
 .content-responsive { width: 1024px; margin: auto;}
 
-.content-header { width: 100%; float: left; height: 31px; background: url("../img/bg_menu_fixo.png") repeat 0 0; position: relative; z-index: 9998;}
+.content-header { width: 100%; float: left; height: 41px; background: url("../img/bg_menu_fixo.png") repeat 0 0; position: relative; z-index: 9998;}
 .content-header h1 { position: absolute; display: block; width: 273px; height: 246px; top: -246px; left: 50%; margin-left: -137px;}
 .content-header h1 .logo-topo { display: block; width: 273px; height: 246px; background: url(../img/logo_topo.png) no-repeat 0 0; background-size: 100%;}
 .content-header h1 .logo-topo span { display: none;}
@@ -56,7 +56,7 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 .menu {}
 .menu ul { float: left;}
 .menu ul li { float: left;}
-.menu ul li a, .menu ul li a:visited { color: #FFF; font-family: AppleGaramond; font-size: 16px; text-shadow: -1px 2px 1px #000; display: block; padding: 6px 26px 0;}
+.menu ul li a, .menu ul li a:visited { color: #FFF; font-family: AppleGaramond; font-size: 18px; text-shadow: -1px 2px 1px #000; display: block; padding: 10px 17px 0;}
 .menu ul li a:hover { color: #fbf9d4;text-shadow: -1px 3px 1px #000; text-decoration: none;}
 .menu ul li a.active { color: #fbf9d4;text-shadow: -1px 3px 1px #000; cursor: text;}
 .menu ul li:last-child a { padding-right: 0;}
@@ -84,24 +84,111 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 /* contato */
 /*#contato p { margin-bottom: 0!important; height: 324px!important;}*/
 
+#contato p {
+	margin-top: 10px;
+}
+
+.social-networks {
+	float: left;
+	padding: 10px 0 0 0;
+	text-align: left;
+	width: 100%;
+}
+
+.social-networks a {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	color: #FFF;
+	margin-bottom: 5px;
+	text-align: center; 
+}
+
+.social-networks a span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-size: 100%!important;
+	float: none;
+	margin-right: 10px;
+}
+
+.social-networks a.link-facebook span {
+	background: url(../img/logo_face.png) no-repeat 0 0;
+}
+
+.social-networks a.link-instagram span {
+	background: url(../img/logo_insta.png) no-repeat 0 0;
+}
+
+.social-networks a.link-whatsapp span {
+	background: url(../img/logo_whats.png) no-repeat 0 0;
+}
+
+.social-networks a.link-whatsapp {
+	cursor: text;
+}
+
 /* map canvas */
 #map_canvas { width: 533px; height: 303px; margin: 30px auto 0;}
 
 
 /* resolucao menor que full hd */
-body.hd-screen header { top: 160px;}
+body.hd-screen .content-item {}
 
-body.hd-screen .content-header h1 { width: 173px; height: 156px; top: -160px; margin-left: -90px;}
-body.hd-screen .content-header h1 .logo-topo { display: block; width: 173px; height: 156px;}
+body.hd-screen header { top: 245px;}
 
-body.hd-screen .body-section { margin-top: 210px;}
+body.hd-screen .content-header h1 { top: -245px;}
+body.hd-screen .content-header h1 .logo-topo { display: block;}
+
+body.hd-screen .body-section { margin-top: 290px;}
+
+body.hd-screen .social-networks {
+	float: left;
+	padding: 30px 0 0 140px;
+	text-align: left;
+	width: auto;
+}
+
+body.hd-screen .social-networks a {
+	float: left;
+	width: 100%;
+	color: #FFF;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+body.hd-screen .social-networks a span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-size: 100%!important;
+	float: left;
+	margin-right: 10px;
+}
+
+body.hd-screen .social-networks a.link-facebook span {
+	background: url(../img/logo_face.png) no-repeat 0 0;
+}
+
+body.hd-screen .social-networks a.link-instagram span {
+	background: url(../img/logo_insta.png) no-repeat 0 0;
+}
+
+body.hd-screen .social-networks a.link-whatsapp span {
+	background: url(../img/logo_whats.png) no-repeat 0 0;
+}
+
+body.hd-screen .social-networks a.link-whatsapp {
+	cursor: text;
+}
 
 body.hd-screen .content-item h2 { font-size: 60px;}
 body.hd-screen #sobre p { width: 100%; padding: 0; float: left; margin-top: 5px; font-size: 16px;}
 
 body.hd-screen #contato { margin-bottom: 100px;}
 body.hd-screen #map_canvas { float: left;}
-body.hd-screen #contato p { float: left; width: calc(100% - 533px); padding: 0;}
+body.hd-screen #contato p { float: left; width: calc(100% - 533px); padding: 0; margin-top: 30px;}
 
 body.hd-screen .footer { bottom: 0px;}
 body.hd-screen .logo-phormna { bottom: -22px;}

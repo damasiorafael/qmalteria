@@ -84,6 +84,9 @@
                     <a href="#game" rel="game" title="Game" class="bt-scroll">Game</a>
                 </li>
                 <li>
+                    <a href="#evento" rel="evento" title="Evento" class="bt-scroll">Evento</a>
+                </li>
+                <li>
                     <a href="#contato" rel="contato" title="Contato" class="bt-scroll">Contato</a>
                 </li>
             </ul>
@@ -135,8 +138,8 @@
             <h2>Sobre Q.Malteria?</h2>
             <p>
                 Q. Malteria? foi criada a partir da paix&atilde;o pelo universo cervejeiro e possui como objetivo trazer esse rico mundo para mais pr&oacute;ximo das pessoas, oferecendo uma carta de cervejas diferenciadas e insumos para sua fabrica&ccedil;&atilde;o.<br /><br />
-                Nosso intuito &eacute; difundir a cultura da cerveja, trazendo informa&ccedil;&otilde;es sobre a hist&oacute;ria, surgimento dos estilos, degusta&ccedil;&atilde;o, harmoniza&ccedil;&atilde;o e fabrica&ccedil;&atilde;o de cerveja.<br /><br />
-                Selecionamos r&oacute;tulos estaduais, nacionais e internacionais para oferecer ao p&uacute;blico uma vasta op&ccedil;&otilde;es de experi&ecirc;ncias.<br /><br />
+                Nosso intuito &eacute; difundir a cultura cervejeira, trazendo informa&ccedil;&otilde;es sobre a hist&oacute;ria, surgimento dos estilos, degusta&ccedil;&atilde;o, harmoniza&ccedil;&atilde;o e fabrica&ccedil;&atilde;o de cerveja.<br /><br />
+                Selecionamos r&oacute;tulos estaduais, nacionais e internacionais. S&atilde;o mais de 100 r&oacute;tulos para oferecer ao p&uacute;blico uma variedade de experi&ecirc;ncias e sensa&ccedil;&otilde;es.<br /><br />
                 Para apreciar a sua cerveja, disponibilizamos um ambiente agrad&aacute;vel, com equipe capacitada para oferecer informa&ccedil;&otilde;es sobre as cervejas especiais, assim como oficinas para degusta&ccedil;&atilde;o. Na Q. Malteria? tamb&eacute;m &eacute; poss&iacute;vel criar sua confraria para degusta&ccedil;&atilde;o de cervejas regularmente. <br /><br />
                 Para a fabrica&ccedil;&atilde;o artesanal de cervejas, disponibilizamos espa&ccedil;o e equipamentos necess&aacute;rios. O objetivo &eacute; que as pessoas possam fabricar sua pr&oacute;pria cerveja.<br /><br />
                 Essa &eacute; a proposta, mergulhar na cultura cervejeira de diferentes maneiras.
@@ -162,25 +165,37 @@
             <p>
                 Um dos significados de confraria &eacute; o "conjunto de pessoas que t&ecirc;m o mesmo modo de vida", nesse caso o modo de vida comum &eacute; a aprecia&ccedil;&atilde;o por cervejas.<br /><br />
                 Na Q. Malteria? voc&ecirc; pode trazer seus amigos e criar sua pr&oacute;pria confraria.<br /><br />
-                Temos espa&ccedil;o individualizado e voc&ecirc; pode escolher a frequ&ecirc;ncia dos encontros (semanal, mensal, etc).  Contamos com sommelier de cervejas para confrarias que possuem o objetivo de se aprofundar nos estilos de cervejas.
+                Temos espa&ccedil;o individualizado e voc&ecirc; pode escolher a frequ&ecirc;ncia dos encontros (semanal, quinzenal, mensal, etc).  Contamos com sommelier de cervejas para confrarias que possuem o objetivo de se aprofundar nos estilos de cervejas.
             </p>
         </div>
         <div class="content-item pull-left" id="momento">
             <h2>Momento Degusta&ccedil;&atilde;o</h2>
             <p>
-                Para quem pretende conhecer ou aprimorar os conhecimentos sobre os estilos de cervejas, a Q. Malteria? Possui oficinas de degusta&ccedil;&atilde;o.
+                Para quem pretende conhecer ou aprimorar os conhecimentos sobre os estilos de cervejas, a Q. Malteria? Possui oficinas de degusta&ccedil;&atilde;o.<br /><br />
+                As oficinas possibilitam a diferencia&ccedil;&atilde;o dos estilos de cerveja, assim como o roteiro para  avalia&ccedil;&atilde;o.<br /><br />
+                Oferecemos oficinas para iniciantes, ou seja,  para aqueles que est&atilde;o iniciando nos no universo cervejeiro.<br /><br />
+                E oficinas avan&ccedil;adas para aqueles  que j&aacute; possuem algum conhecimento, mas que desejam se aprofundar em determinado estilo de cerveja.
             </p>
         </div>
         <div class="content-item pull-left" id="harmonize">
             <h2>Harmonize j&aacute;!</h2>
             <p>
-                Se voc&ecirc; pretende tomar uma cerveja com algum prato em especial, mas n&atilde;o sabe qual &eacute; a cerveja indicada, a Q. Malteria? pode ajud&aacute;-lo.
+                Se voc&ecirc; pretende tomar uma cerveja com algum prato em especial, mas n&atilde;o sabe qual &eacute; a cerveja indicada, a Q. Malteria? pode ajud&aacute;-lo.<br /><br />
+                A cerveja pode proporcionar incr&iacute;veis combina&ccedil;&otilde;es com in&uacute;meros pratos.<br /><br />
+                Contamos com sommelier de cervejas  para auxiliar na escolha da cerveja ideal para o seu card&aacute;pio.
             </p>
         </div>
         <div class="content-item pull-left" id="game">
             <h2>Game</h2>
             <p>
-                Em Breve
+                Curte jogar um game, mas &agrave;s vezes n&atilde;o sabe onde  se reunir com a galera?
+                Na Q. Malteria? &eacute; poss&iacute;vel jogar um game  sem ter que se preocupar com o barulho e com a bagun&ccedil;a.
+            </p>
+        </div>
+        <div class="content-item pull-left" id="evento">
+            <h2>Fa&ccedil;a Seu Evento Aqui!</h2>
+            <p>
+                Se voc&ecirc; pretende fazer um evento, mas n&atilde;o gostaria de fazer na sua casa e ao mesmo tempo gostaria que fosse em um ambiente mais privado e aconchegante... Conte com a Q. Malteria? Aqui voc&ecirc; pode fazer seu evento.
             </p>
         </div>
         <div class="content-item pull-left" id="contato">
@@ -191,6 +206,17 @@
                 (43) 3011-0770<br />
                 Avenida Arapongas, 1571 - sobreloja<br />
                 Arapongas - Paran&aacute;
+                <span class="social-networks">
+                    <a href="https://www.facebook.com/qmalteria" title="Facebook" class="link-facebook" target="_blank">
+                        <span></span>qmalteria
+                    </a>
+                    <a href="https://instagram.com/qmalteria" title="Instagram" class="link-instagram" target="_blank">
+                        <span></span>qmalteria
+                    </a>
+                    <a href="#" title="whatsapp" class="link-whatsapp">
+                        <span></span>(43) 9845-5586
+                    </a>
+                </span>
             </p>
         </div>
     </div>

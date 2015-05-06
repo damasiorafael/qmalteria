@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 		//topPage = parseInt($(novoId).offset().top)-310;
 
-		topPage = ($("body").hasClass("hd-screen")) ? parseInt($(novoId).offset().top)-210 : parseInt($(novoId).offset().top)-310;
+		topPage = ($("body").hasClass("hd-screen")) ? parseInt($(novoId).offset().top)-295 : parseInt($(novoId).offset().top)-310;
 
 		$("html, body").animate({
 			scrollTop: topPage
@@ -121,11 +121,11 @@ $(document).ready(function(){
 			//console.log(itemScroll().split("|")[1]);
 			if(event.wheelDelta > 0 && parseInt(itemScroll().split("|")[1]) > 0){
 		    	checaScroll(itemScroll(), "up");
-		    } else if(event.wheelDelta < 0 && parseInt(itemScroll().split("|")[1]) < 7) {
+		    } else if(event.wheelDelta < 0 && parseInt(itemScroll().split("|")[1]) < 8) {
 		    	checaScroll(itemScroll(), "down");
 		    }
 		} else {
-			if(event.detail > 0 && parseInt(itemScroll().split("|")[1]) < 7){
+			if(event.detail > 0 && parseInt(itemScroll().split("|")[1]) < 8){
 		    	checaScroll(itemScroll(), "down");
 		    } else if(event.detail < 0 && parseInt(itemScroll().split("|")[1]) > 0) {
 		    	checaScroll(itemScroll(), "up");
@@ -161,7 +161,7 @@ $(document).ready(function(){
 				e.stopPropagation();
 				var $this = $(this),
 				thisTop = $this.attr("href");
-				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-210 : parseInt($(thisTop).offset().top)-310;
+				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-295 : parseInt($(thisTop).offset().top)-310;
 				$(".bt-scroll").removeClass("active");
 				$this.addClass("active");
 				$("html, body").animate({
@@ -232,4 +232,9 @@ $(document).ready(function(){
 			scrollButtom();
 		});
 	}
+
+	$(".link-whatsapp").on("click", function(e){
+		e.stopPropagation();
+		e.preventDefault();
+	});
 });
