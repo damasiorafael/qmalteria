@@ -165,7 +165,7 @@
             <p>
                 Um dos significados de confraria &eacute; o "conjunto de pessoas que t&ecirc;m o mesmo modo de vida", nesse caso o modo de vida comum &eacute; a aprecia&ccedil;&atilde;o por cervejas.<br /><br />
                 Na Q. Malteria? voc&ecirc; pode trazer seus amigos e criar sua pr&oacute;pria confraria.<br /><br />
-                Temos espa&ccedil;o individualizado e voc&ecirc; pode escolher a frequ&ecirc;ncia dos encontros (semanal, quinzenal, mensal, etc).  Contamos com sommelier de cervejas para confrarias que possuem o objetivo de se aprofundar nos estilos de cervejas.
+                Temos espa&ccedil;o individualizado e voc&ecirc; pode escolher a frequ&ecirc;ncia dos encontros (semanal, quinzenal, mensal, etc).  Contamos com <i>sommelier</i> de cervejas para confrarias que possuem o objetivo de se aprofundar nos estilos de cervejas.
             </p>
         </div>
         <div class="content-item pull-left" id="momento">
@@ -182,7 +182,7 @@
             <p>
                 Se voc&ecirc; pretende tomar uma cerveja com algum prato em especial, mas n&atilde;o sabe qual &eacute; a cerveja indicada, a Q. Malteria? pode ajud&aacute;-lo.<br /><br />
                 A cerveja pode proporcionar incr&iacute;veis combina&ccedil;&otilde;es com in&uacute;meros pratos.<br /><br />
-                Contamos com sommelier de cervejas  para auxili&aacute;-lo na escolha da cerveja ideal para o seu card&aacute;pio.
+                Contamos com <i>sommelier</i> de cervejas  para auxili&aacute;-lo na escolha da cerveja ideal para o seu card&aacute;pio.
             </p>
         </div>
         <div class="content-item pull-left" id="game">
