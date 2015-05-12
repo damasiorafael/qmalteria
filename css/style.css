@@ -43,20 +43,20 @@ a.bt-scroll-disable { cursor: text;}
 body { float: left; width: 100%; height: 100%; background: url(../img/bg_body.jpg) repeat center top; background-attachment: fixed; overflow: hidden;}
 
 /* estrutura */
-header { position: fixed; top: 252px; width: 100%; float: left;}
+header { position: fixed; top: 287px; width: 100%; float: left;}
 .header-alternative { display: none;}
 .content-responsive { width: 1024px; margin: auto;}
 
 .content-header { width: 100%; float: left; height: 41px; background: url("../img/bg_menu_fixo.png") repeat 0 0; position: relative; z-index: 9998;}
-.content-header h1 { position: absolute; display: block; width: 273px; height: 246px; top: -246px; left: 50%; margin-left: -137px;}
-.content-header h1 .logo-topo { display: block; width: 273px; height: 246px; background: url(../img/logo_topo.png) no-repeat 0 0; background-size: 100%;}
+.content-header h1 { position: absolute; display: block; width: 320px; height: 288px; top: -286px; left: 50%; margin-left: -160px;}
+.content-header h1 .logo-topo { display: block; width: 320px; height: 288px; background: url(../img/logo_topo.png) no-repeat 0 0; background-size: 100%;}
 .content-header h1 .logo-topo span { display: none;}
 .bt-menu-toggle { display: none;}
 
 .menu {}
 .menu ul { float: left;}
 .menu ul li { float: left;}
-.menu ul li a, .menu ul li a:visited { color: #FFF; font-family: AppleGaramond; font-size: 18px; text-shadow: -1px 2px 1px #000; display: block; padding: 10px 17px 0;}
+.menu ul li a, .menu ul li a:visited { color: #FFF; font-family: AppleGaramond; font-size: 21px; text-shadow: -1px 2px 1px #000; display: block; padding: 10px 10px 0;}
 .menu ul li a:hover { color: #fbf9d4;text-shadow: -1px 3px 1px #000; text-decoration: none;}
 .menu ul li a.active { color: #fbf9d4;text-shadow: -1px 3px 1px #000; cursor: text;}
 .menu ul li:last-child a { padding-right: 0;}
@@ -74,10 +74,10 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 /* RODAPE */
 
 /* body */
-.body-section { float: left; width: 100%; clear: both; margin-top: 310px;}
+.body-section { float: left; width: 100%; clear: both; margin-top: 330px;}
 .content-body {}
 .content-item { width: calc(100% - 52px); padding: 0 26px; margin-top: 10px;}
-.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: .50;}
+.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: 1;}
 .content-item p { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
 /* body */
 
@@ -130,22 +130,22 @@ header { position: fixed; top: 252px; width: 100%; float: left;}
 }
 
 /* map canvas */
-#map_canvas { width: 533px; height: 303px; margin: 30px auto 0;}
+#map_canvas { width: 533px; height: 270px; margin: 30px auto 0;}
 
 
 /* resolucao menor que full hd */
 body.hd-screen .content-item {}
 
-body.hd-screen header { top: 245px;}
+body.hd-screen header { top: 280px;}
 
-body.hd-screen .content-header h1 { top: -245px;}
+body.hd-screen .content-header h1 { top: -280px;}
 body.hd-screen .content-header h1 .logo-topo { display: block;}
 
-body.hd-screen .body-section { margin-top: 290px;}
+body.hd-screen .body-section { margin-top: 325px;}
 
 body.hd-screen .social-networks {
 	float: left;
-	padding: 30px 0 0 140px;
+	padding: 10px 0 0 140px;
 	text-align: left;
 	width: auto;
 }
@@ -184,7 +184,7 @@ body.hd-screen .social-networks a.link-whatsapp {
 }
 
 body.hd-screen .content-item h2 { font-size: 60px;}
-body.hd-screen #sobre p { width: 100%; padding: 0; float: left; margin-top: 5px; font-size: 16px;}
+body.hd-screen #sobre p { width: 100%; padding: 0; float: left; margin-top: 5px; font-size: 14px;}
 
 body.hd-screen #contato { margin-bottom: 100px;}
 body.hd-screen #map_canvas { float: left;}

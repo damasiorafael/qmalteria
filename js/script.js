@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 		//topPage = parseInt($(novoId).offset().top)-310;
 
-		topPage = ($("body").hasClass("hd-screen")) ? parseInt($(novoId).offset().top)-295 : parseInt($(novoId).offset().top)-310;
+		topPage = ($("body").hasClass("hd-screen")) ? parseInt($(novoId).offset().top)-325 : parseInt($(novoId).offset().top)-350;
 
 		$("html, body").animate({
 			scrollTop: topPage
@@ -161,7 +161,7 @@ $(document).ready(function(){
 				e.stopPropagation();
 				var $this = $(this),
 				thisTop = $this.attr("href");
-				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-295 : parseInt($(thisTop).offset().top)-310;
+				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-325 : parseInt($(thisTop).offset().top)-350;
 				$(".bt-scroll").removeClass("active");
 				$this.addClass("active");
 				$("html, body").animate({
