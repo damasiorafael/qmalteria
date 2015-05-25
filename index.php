@@ -61,32 +61,32 @@
         </h1>
 		<nav class="menu content-responsive">
         	<a href="#menu" class="bt-menu-toggle"><i class="fa fa-bars"></i></a>
-        	<ul>
-            	<li>
+        	<ul class="content-responsive">
+            	<li class="float-left menu-sobre">
                 	<a href="#sobre" rel="sobre" title="Sobre Q.Malteria?" class="bt-scroll active">Sobre Q.Malteria?</a>
                 </li>
-                <li>
+                <li class="float-left menu-galeria">
                 	<a href="#galeria" rel="galeria" title="Cervejarias" class="bt-scroll">Galeria</a>
                 </li>
-                <li>
+                <li class="float-right menu-faca-sua">
                 	<a href="#faca-sua-propria" rel="faca-sua-propria" title="Fa&ccedil;a sua pr&oacute;pria cerveja" class="bt-scroll">Fa&ccedil;a sua pr&oacute;pria cerveja</a>
                 </li>
-                <li>
+                <li class="float-right menu-confraria">
                     <a href="#confrarias" rel="confrarias" title="Confrarias" class="bt-scroll">Confrarias</a>
                 </li>
-                <li>
+                <li class="float-left menu-momento">
                     <a href="#momento" rel="momento" title="Momento degusta&ccedil;&atilde;o" class="bt-scroll">Momento degusta&ccedil;&atilde;o</a>
                 </li>
-                <li>
+                <li class="float-left menu-harmonize">
                     <a href="#harmonize" rel="harmonize" title="Harmonize j&aacute;" class="bt-scroll">Harmonize j&aacute;</a>
                 </li>
-                <li>
+                <li class="float-right menu-game">
                     <a href="#game" rel="game" title="Game" class="bt-scroll">Game</a>
                 </li>
-                <li>
+                <li class="float-right menu-eventos">
                     <a href="#evento" rel="evento" title="Evento" class="bt-scroll">Evento</a>
                 </li>
-                <li>
+                <li class="float-right menu-contato">
                     <a href="#contato" rel="contato" title="Contato" class="bt-scroll">Contato</a>
                 </li>
             </ul>
@@ -147,9 +147,17 @@
         </div>
         <div class="content-item pull-left" id="galeria">
             <h2>Galeria</h2>
-            <p>
-                Em Breve
-            </p>
+            <ul class="lista-galeria">
+                <?php
+                    for($i=1; $i<=19; $i++){
+                ?>
+                        <li>
+                            <a href="img/galeria/<?php echo $i; ?>.png" data-title="Galeria Q.Malteria?" data-lightbox="galerias">
+                                <img src="img/galeria/thumb-<?php echo $i; ?>.png" />
+                            </a>
+                        </li>
+                <?php } ?>
+            </ul>
         </div>
         <div class="content-item pull-left" id="faca-sua-propria">
             <h2>Fa&ccedil;a sua pr&oacute;pria cerveja</h2>
@@ -263,6 +271,8 @@
 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/lightbox.min.js"></script>
 
 <script type="text/javascript" src="js/script.js"></script>
 </body>

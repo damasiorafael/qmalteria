@@ -14,17 +14,6 @@ var ie = /.NET/g;
 $(document).ready(function(){
 
 	var largJan = $(window).width();
-	//alert($(window).width());
-
-	/*var target = document.querySelector(".content-item-portfolio");
-	var observer = new MutationObserver( handleMutationObserver );
-	var config = {childList: true, subtree: true, attributes: true, characterData: true, attributeOldValue: true, characterDataOldValue: true, attributeFilter: ["id", "dir"]};
-	function handleMutationObserver( mutations ) {
-		mutations.forEach(function(mutation) {
-			trocaImagemPortfolio();
-		});
-	}
-	observer.observe( target, config );*/
 
 	animateMenu = function(height){
 		$(".menu ul").animate({
@@ -100,8 +89,10 @@ $(document).ready(function(){
 	}
 
 	function wheel(event){
-		event.preventDefault();
-    	event.returnValue=true;
+		if(parseInt(largJan) >= 1360){
+			event.preventDefault();
+			event.returnValue=true;
+		}
     	//console.log(event);
 		itemScroll = function(){
 	    	var returnThis;
@@ -120,15 +111,23 @@ $(document).ready(function(){
 		if(tChrome.test(ua) || ie.test(ua)){
 			//console.log(itemScroll().split("|")[1]);
 			if(event.wheelDelta > 0 && parseInt(itemScroll().split("|")[1]) > 0){
-		    	checaScroll(itemScroll(), "up");
+				if(parseInt(largJan) >= 1360){
+		    		checaScroll(itemScroll(), "up");
+		    	}
 		    } else if(event.wheelDelta < 0 && parseInt(itemScroll().split("|")[1]) < 8) {
-		    	checaScroll(itemScroll(), "down");
+		    	if(parseInt(largJan) >= 1360){
+		    		checaScroll(itemScroll(), "down");
+		    	}
 		    }
 		} else {
 			if(event.detail > 0 && parseInt(itemScroll().split("|")[1]) < 8){
-		    	checaScroll(itemScroll(), "down");
+				if(parseInt(largJan) >= 1360){
+		    		checaScroll(itemScroll(), "down");
+		    	}
 		    } else if(event.detail < 0 && parseInt(itemScroll().split("|")[1]) > 0) {
-		    	checaScroll(itemScroll(), "up");
+		    	if(parseInt(largJan) >= 1360){
+		    		checaScroll(itemScroll(), "up");
+		    	}
 		    }
 		}
 	}

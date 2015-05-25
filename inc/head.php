@@ -37,4 +37,6 @@
 
 <link rel="stylesheet" href="css/fonts.css" type="text/css" media="screen" charset="utf-8" />
 
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" charset="utf-8" />
+
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />

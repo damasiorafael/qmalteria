@@ -78,7 +78,7 @@ header { position: fixed; top: 287px; width: 100%; float: left;}
 .content-body {}
 .content-item { width: calc(100% - 52px); padding: 0 26px; margin-top: 10px;}
 .content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: 1;}
-.content-item p { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
+.content-item p, .lista-galeria { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
 /* body */
 
 /* contato */
@@ -184,7 +184,7 @@ body.hd-screen .social-networks a.link-whatsapp {
 }
 
 body.hd-screen .content-item h2 { font-size: 60px;}
-body.hd-screen #sobre p { width: 100%; padding: 0; float: left; margin-top: 5px; font-size: 14px;}
+body.hd-screen #sobre p { width: 100%; padding: 0; float: left; margin-top: 5px;}
 
 body.hd-screen #contato { margin-bottom: 100px;}
 body.hd-screen #map_canvas { float: left;}
@@ -192,6 +192,57 @@ body.hd-screen #contato p { float: left; width: calc(100% - 533px); padding: 0; 
 
 body.hd-screen .footer { bottom: 0px;}
 body.hd-screen .logo-phormna { bottom: -22px;}
+
+.lista-galeria { margin: 0; padding: 0; margin-top: 0; padding: 0!important; width: 100%; text-align: left; margin-bottom: 220px!important;}
+
+.lista-galeria li { width: calc(14.28% - 10px); margin: 0 2px 20px!important; padding: 0!important; display: inline-block; border: none!important; box-shadow: -1px 1px 1px #fff, 1px 1px 1px #fff, 1px -1px 1px #fff;}
+.lista-galeria li a { max-width: 100%; display: inline-block;}
+.lista-galeria li img { max-width: 100%;}
+
+@media only screen and (max-width: 1360px){
+	body {
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	body.hd-screen header, header { top: 200px;}
+
+	.content-header { height: 78px;}
+	body.hd-screen .content-header h1, .content-header h1 { top: -200px;}
+
+	li.float-left {
+		position: absolute;
+	}
+
+	li.float-right {
+		position: absolute;
+	}
+
+	li.menu-sobre {}
+
+	li.menu-galeria { margin-left: 190px;}
+
+	li.menu-harmonize { margin-top: 35px; margin-left: 220px;}
+
+	li.menu-momento { margin-top: 35px;	margin-left: 20px;}
+
+	li.menu-faca-sua { margin-left: 690px;}
+
+	li.menu-confraria { margin-left: 940px;}
+
+	li.menu-game { margin-top: 35px; margin-left: 650px;}
+
+	li.menu-eventos { margin-top: 35px; margin-left: 810px;}
+
+	li.menu-contato { margin-top: 35px; margin-left: 956px;}
+
+	body.hd-screen .content-item, .content-item { margin-top: 0; margin-bottom: 60px;}
+
+	body.hd-screen #contato, body.hd-screen #contato p, .content-item p { margin-bottom: 60px;}
+
+	.content-item p { height: auto;}
+
+	ul.lista-galeria, .lista-galeria { margin-bottom: 60px!important;}
+}
 
 /* mobile */
 @media only screen and (-webkit-device-pixel-ratio:2){
@@ -214,7 +265,8 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 
 	.menu { background: url("../img/bg_menu_fixo.png") repeat 0 0;}
 	.menu ul { width: 100%; height: 0; overflow: hidden;}
-	.menu ul li { width: calc(100% - 52px);}
+	.menu ul li { width: calc(100% - 52px); position: relative;}
+	.header-alternative li, .header-alternative li, li.float-left, li.float-right { margin-left: 20px; margin-top: 0;}
 	.menu ul li a { padding-bottom: 6px;}
 	.menu ul li:first-child a { padding-top: 12px;}
 	.menu ul li:last-child a { padding-bottom: 12px;}
@@ -255,7 +307,8 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 
 	.menu { background: url("../img/bg_menu_fixo.png") repeat 0 0;}
 	.menu ul { width: 100%; height: 0; overflow: hidden;}
-	.menu ul li { width: calc(100% - 52px);}
+	.menu ul li { width: calc(100% - 52px); position: relative;}
+	.header-alternative li, .header-alternative li, li.float-left, li.float-right { margin-left: 20px; margin-top: 0;}
 	.menu ul li a { padding-bottom: 6px; font-size: 16px;}
 	.menu ul li:first-child a { padding-top: 12px;}
 	.menu ul li:last-child a { padding-bottom: 12px;}
@@ -296,7 +349,8 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 
 	.menu { background: url("../img/bg_menu_fixo.png") repeat 0 0;}
 	.menu ul { width: 100%; height: 0; overflow: hidden;}
-	.menu ul li { width: calc(100% - 52px);}
+	.menu ul li { width: calc(100% - 52px); position: relative;}
+	.header-alternative li, .header-alternative li, li.float-left, li.float-right { margin-left: 20px; margin-top: 0;}
 	.menu ul li a { padding-bottom: 6px; font-size: 16px;}
 	.menu ul li:first-child a { padding-top: 12px;}
 	.menu ul li:last-child a { padding-bottom: 12px;}
