@@ -90,8 +90,8 @@ $(document).ready(function(){
 
 	function wheel(event){
 		if(parseInt(largJan) >= 1360){
-			event.preventDefault();
-			event.returnValue=true;
+			//event.preventDefault();
+			//event.returnValue=true;
 		}
     	//console.log(event);
 		itemScroll = function(){
@@ -112,21 +112,21 @@ $(document).ready(function(){
 			//console.log(itemScroll().split("|")[1]);
 			if(event.wheelDelta > 0 && parseInt(itemScroll().split("|")[1]) > 0){
 				if(parseInt(largJan) >= 1360){
-		    		checaScroll(itemScroll(), "up");
+		    		//checaScroll(itemScroll(), "up");
 		    	}
 		    } else if(event.wheelDelta < 0 && parseInt(itemScroll().split("|")[1]) < 8) {
 		    	if(parseInt(largJan) >= 1360){
-		    		checaScroll(itemScroll(), "down");
+		    		//checaScroll(itemScroll(), "down");
 		    	}
 		    }
 		} else {
 			if(event.detail > 0 && parseInt(itemScroll().split("|")[1]) < 8){
 				if(parseInt(largJan) >= 1360){
-		    		checaScroll(itemScroll(), "down");
+		    		//checaScroll(itemScroll(), "down");
 		    	}
 		    } else if(event.detail < 0 && parseInt(itemScroll().split("|")[1]) > 0) {
 		    	if(parseInt(largJan) >= 1360){
-		    		checaScroll(itemScroll(), "up");
+		    		//checaScroll(itemScroll(), "up");
 		    	}
 		    }
 		}

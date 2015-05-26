@@ -199,7 +199,7 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 .lista-galeria li a { max-width: 100%; display: inline-block;}
 .lista-galeria li img { max-width: 100%;}
 
-@media only screen and (max-width: 1360px){
+/*@media only screen and (max-width: 1360px){*/
 	body {
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -242,7 +242,7 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 	.content-item p { height: auto;}
 
 	ul.lista-galeria, .lista-galeria { margin-bottom: 60px!important;}
-}
+/*}*/
 
 /* mobile */
 @media only screen and (-webkit-device-pixel-ratio:2){
