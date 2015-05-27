@@ -74,11 +74,11 @@ header { position: fixed; top: 287px; width: 100%; float: left;}
 /* RODAPE */
 
 /* body */
-.body-section { float: left; width: 100%; clear: both; margin-top: 330px;}
+.body-section { float: left; width: 100%; clear: both; margin-top: 300px;}
 .content-body {}
 .content-item { width: calc(100% - 52px); padding: 0 26px; margin-top: 10px;}
-.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #000; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: 1;}
-.content-item p, .lista-galeria { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: 527px; margin-bottom: 220px;}
+.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #676937; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: 1;}
+.content-item p, .lista-galeria { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: auto; margin-bottom: 220px;}
 /* body */
 
 /* contato */
@@ -141,7 +141,7 @@ body.hd-screen header { top: 280px;}
 body.hd-screen .content-header h1 { top: -280px;}
 body.hd-screen .content-header h1 .logo-topo { display: block;}
 
-body.hd-screen .body-section { margin-top: 325px;}
+body.hd-screen .body-section { margin-top: 300px;}
 
 body.hd-screen .social-networks {
 	float: left;
@@ -204,10 +204,10 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
-	body.hd-screen header, header { top: 200px;}
+	body.hd-screen header, header { top: 140px;}
 
 	.content-header { height: 78px;}
-	body.hd-screen .content-header h1, .content-header h1 { top: -200px;}
+	body.hd-screen .content-header h1, .content-header h1 { top: -140px;}
 
 	li.float-left {
 		position: absolute;
@@ -229,7 +229,7 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 
 	li.menu-confraria { margin-left: 940px;}
 
-	li.menu-game { margin-top: 35px; margin-left: 650px;}
+	li.menu-game { margin-top: 35px; margin-left: 680px;}
 
 	li.menu-eventos { margin-top: 35px; margin-left: 810px;}
 
@@ -241,11 +241,12 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 
 	.content-item p { height: auto;}
 
-	ul.lista-galeria, .lista-galeria { margin-bottom: 60px!important;}
+	ul.lista-galeria, .lista-galeria { margin-bottom: 0!important;}
 /*}*/
 
 /* mobile */
 @media only screen and (-webkit-device-pixel-ratio:2){
+
 	body { overflow: auto;}
 	.content-responsive { width: 100%; float: left;}
 
@@ -285,6 +286,8 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 	.logo-phormna { bottom: 0!important; right: 0!important;}
 
 	#map_canvas { width: 100%!important; height: 250px;}
+
+	.lb-nav a.lb-next, .lb-nav a.lb-prev { opacity: 1!important;}
 }
 
 @media only screen and (max-device-width: 1023px){
@@ -327,6 +330,8 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 	.logo-phormna { bottom: 0!important; right: 0!important;}
 
 	#map_canvas { width: 100%!important; height: 250px;}
+
+	.lb-nav a.lb-next, .lb-nav a.lb-prev { opacity: 1!important;}
 }
 
 @media only screen and (max-width: 1023px){
@@ -360,7 +365,7 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 	.content-item h2 { font-size: 28px!important; opacity: 1;}
 	.content-item p { margin-top: 10px!important; padding: 0!important; width: 100%!important; height: auto!important; margin-bottom: 30px!important; text-align: center!important; font-size: 16px!important;}
 
-	#contato { margin-bottom: 0!important;}
+	#contato { margin-bottom: 50px!important;}
 	#contato p { margin-top: 20px!important;}
 
 	.footer { position: relative;}
@@ -369,4 +374,6 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 	.logo-phormna { bottom: 0!important; right: 0!important;}
 
 	#map_canvas { width: 100%!important; height: 250px;}
+
+	.lb-nav a.lb-next, .lb-nav a.lb-prev { opacity: 1!important;}
 }

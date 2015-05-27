@@ -122,6 +122,9 @@
                 <li>
                     <a href="#game" rel="game" title="Game" class="bt-scroll">Game</a>
                 </li>
+                <li class="float-right menu-eventos">
+                    <a href="#evento" rel="evento" title="Evento" class="bt-scroll">Evento</a>
+                </li>
                 <li>
                     <a href="#contato" rel="contato" title="Contato" class="bt-scroll">Contato</a>
                 </li>

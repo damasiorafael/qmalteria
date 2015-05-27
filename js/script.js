@@ -31,7 +31,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		verHeight = $(".menu ul").height();
 		if(parseInt(verHeight) == 0){
-			verHeight = 268;
+			verHeight = 338;
 			$(".menu ul").css("margin-top", "60px");
 			animateMenu(verHeight);
 		} else {
@@ -160,7 +160,7 @@ $(document).ready(function(){
 				e.stopPropagation();
 				var $this = $(this),
 				thisTop = $this.attr("href");
-				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-325 : parseInt($(thisTop).offset().top)-350;
+				topPage = ($("body").hasClass("hd-screen")) ? parseInt($(thisTop).offset().top)-275 : parseInt($(thisTop).offset().top)-300;
 				$(".bt-scroll").removeClass("active");
 				$this.addClass("active");
 				$("html, body").animate({
