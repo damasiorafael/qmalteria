@@ -77,7 +77,27 @@ header { position: fixed; top: 287px; width: 100%; float: left;}
 .body-section { float: left; width: 100%; clear: both; margin-top: 300px;}
 .content-body {}
 .content-item { width: calc(100% - 52px); padding: 0 26px; margin-top: 10px;}
-.content-item h2 { font-family: 'AppleGaramondBold'; font-size: 76px; color: #676937; text-shadow: 2px 0 1px #FFF, -2px 0 1px #FFF, -1px -1px 0 #999, -1px -1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67); opacity: 1;}
+.content-item h2 {
+	font-family: 'AppleGaramondBold';
+	font-size: 76px;
+	color: #676937;
+	text-shadow:
+		2px 0 1px #FFF,
+		-2px 0 1px #FFF,
+		-1px -1px 0 #999,
+		-1px -1px 0 rgba(140,140,140,0.6),
+		-1px -1px 1px rgba(0,0,0,0.67);
+	opacity: 1;
+}
+
+body.ie9 .content-item h2 {
+	line-height: 90px;
+	padding-left: 10px;
+	filter:
+		glow(strength=5 color=white)
+		blur(strength=1.5 direction=45)
+		blur(strength=1.5 direction=90)
+}
 .content-item p, .lista-galeria { text-align: center; font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; line-height: 22px; color: #FFF; margin-top: 40px; padding: 0 100px; width: calc(100% - 200px); text-shadow: -1px 2px 1px #000; height: auto; margin-bottom: 220px;}
 /* body */
 
@@ -123,6 +143,11 @@ header { position: fixed; top: 287px; width: 100%; float: left;}
 
 .social-networks a.link-whatsapp span {
 	background: url(../img/logo_whats.png) no-repeat 0 0;
+}
+
+body.ie9 .social-networks a.link-whatsapp span {
+	background: url(../img/logo_whats_ie9.png) no-repeat 0 0!important;
+	background-size: 100%!important;
 }
 
 .social-networks a.link-whatsapp {

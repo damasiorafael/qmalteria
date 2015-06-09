@@ -11,7 +11,25 @@ var ua = navigator.userAgent;
 var tChrome = /Chrome/g;
 var ie = /.NET/g;
 
+var ie10 = /MSIE 10.0/;
+
+var ie9 = /MSIE 9.0/;
+
+var ie8 = /MSIE 8.0/;
+
 $(document).ready(function(){
+
+	if(ie10.test(ua)){
+		$("body").addClass("ie10");
+	}
+
+	if(ie9.test(ua)){
+		$("body").addClass("ie9");
+	}
+
+	if(ie8.test(ua)){
+		$("body").addClass("ie8");
+	}
 
 	var largJan = $(window).width();
 
