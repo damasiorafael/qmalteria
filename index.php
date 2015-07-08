@@ -152,7 +152,7 @@
             <h2>Galeria</h2>
             <ul class="lista-galeria">
                 <?php
-                    for($i=1; $i<=19; $i++){
+                    for($i=1; $i<=23; $i++){
                 ?>
                         <li>
                             <a href="img/galeria/<?php echo $i; ?>.png" data-title="Galeria Q.Malteria?" data-lightbox="galerias">
