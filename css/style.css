@@ -49,7 +49,7 @@ header { position: fixed; top: 287px; width: 100%; float: left;}
 
 .content-header { width: 100%; float: left; height: 41px; background: url("../img/bg_menu_fixo.png") repeat 0 0; position: relative; z-index: 9998;}
 .content-header h1 { position: absolute; display: block; width: 320px; height: 288px; top: -286px; left: 50%; margin-left: -160px;}
-.content-header h1 .logo-topo { display: block; width: 320px; height: 288px; background: url(../img/logo_topo.png) no-repeat 0 0; background-size: 100%;}
+.content-header h1 .logo-topo { display: block; width: 320px; height: 288px; background: url(../img/logo_topo_2.png) no-repeat 0 0; background-size: 100%;}
 .content-header h1 .logo-topo span { display: none;}
 .bt-menu-toggle { display: none;}
 
@@ -229,10 +229,10 @@ body.hd-screen .logo-phormna { bottom: -22px;}
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
-	body.hd-screen header, header { top: 140px;}
+	body.hd-screen header, header { top: 60px;}
 
 	.content-header { height: 78px;}
-	body.hd-screen .content-header h1, .content-header h1 { top: -140px;}
+	body.hd-screen .content-header h1, .content-header h1 { top: -60px;}
 
 	li.float-left {
 		position: absolute;
